@@ -6,8 +6,26 @@ import NumberCounter from '../NumberCounter/NumberCounter'
 import Instruments from '../Instruments/Instruments'
 import HeroCarousel from './HeroCarousel'
 import Testimonial from '../Testimonial/Testimonial'
+import WhyChooseUs from '../WhyChooseUs/WhyChooseUs'
+import Banner from '../Banner/Banner';
+import BannerImg from '../../assets/images/common/Banner.png';
+import BannerImg2 from '../../assets/images/common/Banner2.png';
 
 const slides = [OfflineTeach, OnlineTeach];
+const BannerData = {
+    image: BannerImg,
+    tag: "CUSTOMIZE WITH YOUR SCHEDULE",
+    title: "Personalized Professional Online Tutor on Your Schedule",
+    subtitle: "Our scheduling system allows you to select based on your free time. Lorem ipsum demo text for template. Keep track of your students class and tutoring schedules, and never miss your lectures. The best online class scheduling system with easy accessibility.Lorem ipsum is a placeholder text commonly used to demonstrate the visual form",
+    link: "#",
+};
+const BannerData2 = {
+    image: BannerImg2,
+    tag: "CUSTOMIZE WITH YOUR SCHEDULE",
+    title: "Personalized Professional Online Tutor on Your Schedule",
+    subtitle: "Our scheduling system allows you to select based on your free time. Lorem ipsum demo text for template. Keep track of your students class and tutoring schedules, and never miss your lectures. The best online class scheduling system with easy accessibility.Lorem ipsum is a placeholder text commonly used to demonstrate the visual form",
+    link: "#",
+};
 
 const Hero = () => {
 
@@ -43,6 +61,9 @@ const Hero = () => {
   </main>
 
   <NumberCounter/>
+  <WhyChooseUs/>
+  <Banner {...BannerData}/>
+  <Banner {...BannerData2} reverse={true}/>
   <Services/>
   <Instruments/>   
   <Testimonial/>

@@ -1,28 +1,33 @@
 import React from 'react'
+import CountUp from 'react-countup'
 
 const Achievements = [
     {
         id: 1,
         name: "Students Registered",
-        ratings: "20K+",
+        ratings: "20",
+        symbol: "K+",
         icons: '',
     },
     {
         id: 2,
         name: "Ratings",
-        ratings: "4.8",
+        ratings: "4",
+        symbol: "",
         icons: '',
     },
     {
         id: 3,
         name: "Classes Delieverd",
-        ratings: "89000 hrs",
+        ratings: "89000",
+        symbol: " hrs",
         icons: '',
     },
     {
         id: 4,
         name: "Countries Students Learning",
-        ratings: "9+",
+        ratings: "9",
+        symbol: "+",
         icons: '',
     },
 ]
@@ -38,7 +43,16 @@ const NumberCounter = () => {
                                 <div key={id} className="flex flex-col justify-center items-center bg-[#ffffff] dark:bg-gray-900 px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center shadow-md">
                                     <div className="flex flex-row justify-center items-center">
                                         <img src="" alt="" />
-                                        <p className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-primary ml-2">{ratings}</p>
+                                        <p className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-primary ml-2">
+                                            <CountUp
+                                            start={0}
+                                            end={ratings}
+                                            suffix= ""
+                                            duration={3}
+                                            enableScrollSpy={true}
+                                            scrollSpyOnce={false}
+                                            />
+                                        </p>
                                     </div>
                                     <p className="font-medium text-base sm:text-lg leading-6 mt-3 md:mt-6 text-center">{name}</p>
                                 </div>
