@@ -1,5 +1,8 @@
 import React from 'react'
 import { FaChalkboardTeacher } from "react-icons/fa";
+import { MdPriceChange } from "react-icons/md";
+import { MdEventAvailable } from "react-icons/md";
+import { RiPresentationLine } from "react-icons/ri";
 import {delay, motion} from 'framer-motion';
 import { SlideLeft } from '../../utility/animation';
 
@@ -18,7 +21,7 @@ const WhyChooseData = [
         title: "24/7 Tutor Availablity",
         desc: "All our special education experts have a experience in music industry.",
         link: "#",
-        icon: "",
+        icon: <MdEventAvailable/>,
         bgColor: "#73bc00",
         delay: 0.6,
     },
@@ -27,7 +30,7 @@ const WhyChooseData = [
         title: "Interative Session",
         desc: "All our special education experts have a experience in music industry.",
         link: "#",
-        icon: <FaChalkboardTeacher/>,
+        icon: <RiPresentationLine/>,
         bgColor: "#fa6400",
         delay: 0.9,
     },
@@ -36,19 +39,19 @@ const WhyChooseData = [
         title: "Affordable Prices",
         desc: "All our special education experts have a experience in music industry.",
         link: "#",
-        icon: <FaChalkboardTeacher/>,
+        icon: <MdPriceChange/>,
         bgColor: "#fe6baa",
         delay: 0.9,
     },
 ]
 const WhyChooseUs = () => {
   return (
-    <div className='bg-white'>
+    <div className='bg-white dark:bg-gray-900 dark:text-white'>
         <div className="container py-12">
             {/*Headder Section */}
             <div className='space-y-4 p-6  text-center max-w-[500px] mx-auto mb-5'>
                 <h1 className='uppercase font-semibold text-orange-600'>Why Choose Us</h1>
-                <p className='font-semibold text-3xl'>Benefits of learning music with us</p>
+                <p className='font-semibold text-3xl'>Benefits of learning Instruments with us</p>
             </div>
             {/*Card Section */}
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6'>
@@ -59,13 +62,13 @@ const WhyChooseUs = () => {
                             variants={SlideLeft(item.delay)}
                             initial="hidden"
                             whileInView={"visible"}
-                            className="space-y-4 p-6 rounded-xl shadow-[0_0_22px_rgba(0,0,0,0.15)]">
+                            className="space-y-4 p-6 rounded-xl shadow-[0_0_22px_rgba(0,0,0,0.15)] dark:bg-gray-700">
                                 {/*Icon Section */}
                                 <div className='w-10 h-10 rounded-lg flex justify-center items-center text-white'>
-                                    <div className='text-2xl text-orange-600'>{item.icon}</div>
+                                    <div className='text-2xl' style={{color:item.bgColor}}>{item.icon}</div>
                                 </div>
                                 <p className='text-2xl font-semibold'>{item.title}</p>
-                                <p className='text-sm text-gray-500'>{item.desc}</p>
+                                <p className='text-sm text-gray-500 dark:text-white'>{item.desc}</p>
                             </motion.div>
                         )
                     })

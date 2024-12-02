@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="mt-8 bg-gray-800 pt-9">
+    <div className=" dark:bg-black bg-gray-800 pt-9">
   <div className="mx-auto w-full max-w-[1166px] px-4 xl:px-0">
     <div className="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
       <div className="md:w-[316px]">
@@ -11,9 +11,7 @@ const Footer = () => {
           <span className="text-rose-600">YOUR</span>LOGO
         </h1>
         </p>
-        <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Eos, fugit non. Incidunt dolorum adipisci, tempore asperiores nemo odio facere officiis enim animi
-          placeat eaque nesciunt alias beatae id, at dicta.</p>
+        <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">Adriel school of Music was Founded in 2014, our school has become a vibrant community of passionate Students and dedicated Educators. At Adriel school of Music, our mission is to nurture the love of music  in students of all ages and skill levels.</p>
         <div className="mt-[18px] flex gap-4">
           <a className="hover:scale-110" target="_blank"
             href="#"><img alt="facebook icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/facebook.svg" /></a><a
@@ -50,7 +48,7 @@ const Footer = () => {
             </svg>
           </div>
           <div className="ml-[18px]">
-            <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">help@lorem.com</a>
+            <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">adrielmusichelp@.com</a>
             <p className="font-Inter text-[12px] font-medium text-[#fff]">Support Email</p>
           </div>
         </div>
@@ -63,8 +61,7 @@ const Footer = () => {
             </svg>
           </div>
           <div className="ml-[18px]">
-            <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">Sub Nerul, Mumbia,
-              India, 123456</a>
+            <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">NS PARADISE TOWNSHIP, 6th Cross Rd, layout, Aavalahalli, Bengaluru, Karnataka 560049</a>
             <p className="font-Inter text-[12px] font-medium text-white">Address</p>
           </div>
         </div>
@@ -94,12 +91,10 @@ const Footer = () => {
           </ul>
         </div>
         <div className="mt-6 flex flex-col gap-4 sm:mt-0">
-          <p className="text-deutziawhite font-inter text-[18px] font-medium">Download the app</p>
+          <p className="text-deutziawhite font-inter text-[18px] font-medium">Our Muscic Lab</p>
           <div className="flex gap-4 sm:flex-col">
             <a target="_blank"
-              href="#"><img alt="facebook icon" loading="lazy" width="168" height="50" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/google-store.svg" /></a><a
-              target="_blank"
-              href="#"><img alt="facebook icon" loading="lazy" width="168" height="50" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/apple-store.svg" /></a>
+              href="#"><img alt="facebook icon" loading="lazy" width="168" height="50" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/google-store.svg" /></a>
           </div>
         </div>
       </div>

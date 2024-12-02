@@ -1,5 +1,5 @@
 import React from 'react'
-import { MenuLinks } from './navbar'
+import { MenuLinks } from './Navbar'
 
 const ResponsiveMenu = ({showMenu}) => {
   return <div className={`${showMenu? "left-0" : "left-[-100%]"} fixed bottom-0 top-0 w-[75%] transition-all duration-200 shadow-md pt-16 px-8 bg-white dark:bg-gray-900 z-50 flex flex-col justify-between pb-4`}>

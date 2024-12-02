@@ -4,7 +4,7 @@ import { SlideUp } from '../../utility/animation';
 
 const Banner = ({image, title, subtitle, link, tag, reverse}) => {
   return (
-    <div className='bg-white pb-14'>
+    <div className='bg-white dark:bg-gray-900 pb-14 dark:text-white'>
         <div className="container">
             <div className="grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0">
                 {/* Banner Image Section*/}
@@ -15,7 +15,7 @@ const Banner = ({image, title, subtitle, link, tag, reverse}) => {
                      initial={{opacity:0, scale:0.5}}
                      whileInView={{opacity:1, scale:1}}
                      transition={{type:"spring", stiffness:100, delay:0.2}}
-                     src={image} alt="" className='w-[400px] h-full object-cover'
+                     src={image} alt="" className='w-[400px] h-full object-cover rounded-lg'
                      />
                 </div>
                 {/* Banner Text Section*/}
@@ -38,7 +38,7 @@ const Banner = ({image, title, subtitle, link, tag, reverse}) => {
                      variants={SlideUp(0.9)}
                      initial="hidden"
                      whileInView={"visible"} 
-                     className='text-sm text-slate-500'>
+                     className='text-sm text-slate-500 dark:text-white'>
                         {subtitle}
                     </motion.p>
                 <motion.div 

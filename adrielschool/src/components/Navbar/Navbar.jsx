@@ -3,6 +3,7 @@ import DarkMode from './DarkMode';
 import {HiMenuAlt3, HiMenuAlt1} from "react-icons/hi";
 import ResponsiveMenu from './ResponsiveMenu';
 //import Logo from '../../assets/website'
+import {NavLink, replace, useNavigate} from 'react-router-dom';
 
 export const MenuLinks = [
     {
@@ -20,9 +21,12 @@ export const MenuLinks = [
         name: "Courses",
         link: "/courses",
     },
-]
+];
 
 const Navbar = () => {
+
+    const navigate = useNavigate();
+
     const [showMenu, setShowMenu] = React.useState(false);
 
     const toggleMenu = () =>{
@@ -35,7 +39,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
                 {/*Logo Section*/}
                 <div>
-                   <a href="#" className='flex items-center gap-3'><img src="" alt="Logo" className='w-5' /><span className='text-3xl sm:text-2xl font-semibold'>Adriel School Of Music</span></a>
+                   <NavLink to="/" className='flex items-center gap-3'><img src="" alt="Logo" className='w-5' /><span className='text-3xl sm:text-2xl font-semibold'>Adriel School Of Music</span></NavLink>
                 </div>
             {/*Desktop NavLinks Section*/}
             <div className='hidden md:block'>
@@ -44,12 +48,12 @@ const Navbar = () => {
                         MenuLinks.map(({id, name, link})=>{
                             return(
                                 <li key={id} className='cursor-pointer py-4'>
-                                    <a href={link} className='text-sm font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-all duration-300'>{name}</a>
+                                    <NavLink to={link} className='text-sm font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-all duration-300'>{name}</NavLink>
                                 </li>
                             )
                         })
                     }
-                    <button className='btn-primary'>Contact</button>
+                    <button onClick={()=> navigate('/contact', {replace:true})} className='btn-primary'>Contact</button>
                     <DarkMode/>
                 </ul>
             </div>
