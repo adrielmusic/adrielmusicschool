@@ -85,7 +85,7 @@ const Instruments = () => {
                     <p className="mt-1.5 text-sm leading-6 text-secondary-500">
                         {item.content}
                     </p>
-                   <a target='_blank' href="https://forms.gle/egbfwaohMsYagBeC9"><FaArrowUpRightFromSquare className='text-orange-500 text-right cursor-pointer'/></a>
+                   <a target='_blank' href="https://forms.gle/crgDMKRNhjqDQAge6"><FaArrowUpRightFromSquare className='text-orange-500 text-right cursor-pointer'/></a>
                   </motion.li>
                 )
             })

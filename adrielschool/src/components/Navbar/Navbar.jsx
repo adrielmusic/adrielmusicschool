@@ -15,7 +15,7 @@ export const MenuLinks = [
     {
         id: 2,
         name: "About",
-        link: "http://localhost:5173/about",
+        link: "/about",
     },
     {
         id: 3,
@@ -56,7 +56,7 @@ const Navbar = () => {
                             )
                         })
                     }
-                    <button className='btn-primary'><a target='_blank' href="https://forms.gle/egbfwaohMsYagBeC9">Contact</a></button>
+                    <button className='btn-primary'><a target='_blank' href="https://forms.gle/crgDMKRNhjqDQAge6">Contact</a></button>
                     <DarkMode/>
                 </ul>
             </div>

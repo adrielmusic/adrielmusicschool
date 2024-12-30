@@ -20,7 +20,7 @@ const FooterBanner = () => {
             <div className="w-full px-4 lg:w-1/2">
                 <div className="text-center lg:text-right"><a
                         className="font-semibold rounded-lg mx-auto inline-flex items-center justify-center bg-white py-4 px-9 hover:bg-opacity-90"
-                        href="https://forms.gle/egbfwaohMsYagBeC9" target='_blank'>Book class Now</a>
+                        href="https://forms.gle/crgDMKRNhjqDQAge6" target='_blank'>Book class Now</a>
                 </div>
             </div>
         </div>

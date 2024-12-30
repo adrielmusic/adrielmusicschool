@@ -13,7 +13,7 @@ import BannerImg2 from '../../assets/images/common/banner4.jpg';
 import BannerImg3 from '../../assets/images/common/banner3.jpg';
 import NavbarBanner from '../Navbar/NavbarBanner'
 import Certifications from '../Certifications/Certifications'
-import {NavLink, replace, useNavigate} from 'react-router-dom';
+import {NavLink, useNavigate} from 'react-router-dom';
 import FooterBanner from '../Footer/FooterBanner'
 import OurTeam from '../OurTeam.jsx/OurTeam'
 
@@ -81,7 +81,7 @@ const Hero = () => {
                  Adriel School Of Music has become a vibrant community of passionate Students and dedicated Educators. We are one of the best music schools in Bangalore, we also focus on sending tutors to your doorstep. Our mission is to nurture the love of music in students of all ages and skill levels.
                 </p>
                 {/*<button onClick={()=> navigate('/contact', {replace:true})} className='btn-primary'><a target='_blank' href="https://forms.gle/egbfwaohMsYagBeC9">Book Class Now</a></button>*/}
-                <button className='btn-primary'><a target='_blank' href="https://forms.gle/egbfwaohMsYagBeC9">Book Class Now</a></button>
+                <button className='btn-primary'><a target='_blank' href="https://forms.gle/crgDMKRNhjqDQAge6">Book Class Now</a></button>
             </div>
         </div>
     </div>
