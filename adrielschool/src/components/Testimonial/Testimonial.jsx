@@ -1,12 +1,14 @@
 import React from 'react'
 import Slider from 'react-slick';
 import ManAvatar from '../../assets/images/common/man-avatar.png'
+import { FaStar } from "react-icons/fa";
 
 const TestimonialsData = [
   {
     id: 1,
     name: "Ajan Subramanian",
     info: "Student",
+    country: "USA",
     text: "Solomon Sir was extremely patient with me. He taught me the basics of music theory in a short time span and was very attentive to my needs. I highly recommend him to any beginners who are starting to learn piano at an older age.",
     img: ManAvatar,
     rating: "⭐⭐⭐⭐⭐",
@@ -16,6 +18,7 @@ const TestimonialsData = [
     id: 2,
     name: "Sathiyavathi Saravanan",
     info: "Parent",
+    country: "Australia",
     text: "My daughter is truly enjoying her piano class. The instructor Mr.Solomon is absolutely fantastic person. He is professional in teaching. I just want to send in appreciation for being a wonderful teacher in all aspects. Thanks.",
     img: ManAvatar,
     rating: "⭐⭐⭐⭐⭐",
@@ -25,6 +28,7 @@ const TestimonialsData = [
     id: 3,
     name: "Harini Muthu",
     info: "Student",
+    country: "India",
     text: "I’ve learned to play keyboard here. Had 1:1 sessions and it was great experience. Solomon was the trainer for me. His classes were more practical and easy to get along with. The classes were flexible too. It was worth time and money!!",
     img: ManAvatar,
     rating: "⭐⭐⭐⭐",
@@ -34,6 +38,7 @@ const TestimonialsData = [
     id: 4,
     name: "Narendhar murthy",
     info: "Parent",
+    country: "India",
     text: "My son has been taking classes with Solomon sir for a year now. He has shown amazing progress and sir has been very patient and keeps challenging him to get better at his skills. I would strongly recommend classes with sir.",
     img: ManAvatar,
     rating: "⭐⭐⭐⭐⭐",
@@ -41,27 +46,10 @@ const TestimonialsData = [
   },
   {
     id: 5,
-    name: "Monica G S",
+    name: "Andrea",
     info: "Parent",
+    country: "Germany",
     text: "One of best piano tutors in Bangalore, the concepts covered with respect to theory and practical knowledge is immense., the good part is the tricks and different techniques taught here which enables for quick learning.",
-    img: ManAvatar,
-    rating: "⭐⭐⭐⭐⭐",
-    delay: 0.4,
-  },
-  {
-    id: 6,
-    name: "harsith visaakan",
-    info: "Parent",
-    text: "Solomon sir teaches from the basic and has wide knowledge. I strongly recommend Solomon sir for taking piano classes.",
-    img: ManAvatar,
-    rating: "⭐⭐⭐⭐⭐",
-    delay: 0.4,
-  },
-  {
-    id: 6,
-    name: "Gouthami Prasad J R",
-    info: "Parent",
-    text: "I'm glad I found a teacher as patient, friendly and knowledgable that helped my kid to learn and play piano quickly!!!!",
     img: ManAvatar,
     rating: "⭐⭐⭐⭐⭐",
     delay: 0.4,
@@ -128,7 +116,8 @@ const Testimonial = () => {
                         <img className='w-16 h-16 rounded-full' src={item.img} alt="" />
                         <div>
                           <p className='text-xl font-bold text-black/80'>{item.name}</p>
-                          <p>{item.info}</p>
+                          <p className='text-black'>{item.info} <span className='text-gray-400'>- {item.country}</span></p>
+                          
                         </div>
                       </div>
                       {/*bottom Section*/}

@@ -40,7 +40,8 @@ const HeroCarousel = ({children: slides, autoSlide=false, autoSlideInterVal = 10
 
         <div className="bg-white dark:bg-gray-900 px-4 py-2 rounded-xl shadow-md absolute -bottom-5 -left-8">
                     <p className='text-center'>We Offer</p>
-                    <p><span className={`font-bold ${curr == 1 ? "text-green-600" : "text-orange-500"}`}>{curr == 1 ? "Offline" : "Online"}</span> Class</p>
+                    <p><span className={`font-bold ${curr == 0 ? "text-orange-500" : curr == 1 ? "text-green-600" : "text-red-500"}`}>
+                        {curr == 0 ? "Online" : curr == 1 ? "One To One" : "Offline"}</span> Class</p>
        </div>
     </div>
 

@@ -10,7 +10,7 @@ const Achievements = [
   {
       id: 1,
       name: "Students Registered",
-      ratings: "20",
+      ratings: "10",
       symbol: "K+",
       icons: <FaUserGraduate/>,
   },
@@ -24,14 +24,14 @@ const Achievements = [
   {
       id: 3,
       name: "Classes Delieverd",
-      ratings: "89",
+      ratings: "50",
       symbol: "K hrs+",
       icons: <LuBadgeCheck/>,
   },
   {
       id: 4,
       name: "Countries Students Learning",
-      ratings: "9",
+      ratings: "12",
       symbol: "+",
       icons: <IoMdGlobe/>,
   },

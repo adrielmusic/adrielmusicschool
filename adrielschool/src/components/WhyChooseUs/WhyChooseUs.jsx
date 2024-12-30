@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaChalkboardTeacher } from "react-icons/fa";
-import { MdPriceChange } from "react-icons/md";
-import { MdEventAvailable } from "react-icons/md";
+import { RiTimeZoneLine } from "react-icons/ri";
+import { MdMenuBook } from "react-icons/md";
 import { RiPresentationLine } from "react-icons/ri";
 import {delay, motion} from 'framer-motion';
 import { SlideLeft } from '../../utility/animation';
@@ -10,7 +10,7 @@ const WhyChooseData = [
     {
         id:1,
         title: "One-One Teaching",
-        desc: "All our special education experts have a experience in music industry.",
+        desc: "Anybody who wants to learn music but has timing constraints, is not willing to travel, or has any kind of blockers, we have got you covered ! We provide home Tutors.",
         link: "#",
         icon: <FaChalkboardTeacher/>,
         bgColor: "#0063ff",
@@ -18,28 +18,28 @@ const WhyChooseData = [
     },
     {
         id:2,
-        title: "24/7 Tutor Availablity",
-        desc: "All our special education experts have a experience in music industry.",
+        title: "Customized Learning Experience",
+        desc: "Each student receives a customized learning plan that focuses on their goals, whether it’s mastering an instrument, preparing for exams, or simply learning for enjoyment.",
         link: "#",
-        icon: <MdEventAvailable/>,
+        icon: <MdMenuBook/>,
         bgColor: "#73bc00",
         delay: 0.6,
     },
     {
         id:3,
-        title: "Interative Session",
-        desc: "All our special education experts have a experience in music industry.",
+        title: "Flexible Scheduling",
+        desc: "We operate Globally and have tutors for every timezone, so we offer flexible lesson times to fit your schedule, including weekends, as well as the option for online, offline classes and Home tutors.",
         link: "#",
-        icon: <RiPresentationLine/>,
+        icon: <RiTimeZoneLine/>,
         bgColor: "#fa6400",
         delay: 0.9,
     },
     {
         id:4,
-        title: "Affordable Prices",
-        desc: "All our special education experts have a experience in music industry.",
+        title: "Experienced Tutors",
+        desc: "Our Tutors are not only experienced musicians but also passionate educators. They tailor lessons to suit each student's learning style, helping them grow at their own pace.",
         link: "#",
-        icon: <MdPriceChange/>,
+        icon: <RiPresentationLine/>,
         bgColor: "#fe6baa",
         delay: 0.9,
     },

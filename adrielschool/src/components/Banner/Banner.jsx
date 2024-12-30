@@ -1,8 +1,10 @@
 import React from 'react';
 import {motion} from 'framer-motion';
 import { SlideUp } from '../../utility/animation';
+import { useNavigate} from 'react-router-dom';
 
 const Banner = ({image, title, subtitle, link, tag, reverse}) => {
+     const navigate = useNavigate();
   return (
     <div className='bg-white dark:bg-gray-900 pb-14 dark:text-white'>
         <div className="container">
@@ -46,7 +48,7 @@ const Banner = ({image, title, subtitle, link, tag, reverse}) => {
                  initial="hidden"
                  whileInView={"visible"} 
                  className='flex justify-center md:justify-start'>
-                    <button className='btn-primary !mt-5'>Get Started</button>
+                    <button onClick={()=> navigate(link, {replace:true})} className='btn-primary !mt-5'>Get Started</button>
                 </motion.div>
                 </div>
             </div>

@@ -1,28 +1,27 @@
-import React from 'react'
+import React from 'react';
+import Instagram from '../../assets/images/common/instagram.svg'
+import Facebook from '../../assets/images/common/facebook.svg'
+import Youtube from '../../assets/images/common/youtube.svg'
 
 const Footer = () => {
   return (
-    <div className=" dark:bg-black bg-gray-800 pt-9">
+    <div className="bg-gray-800 pt-9">
   <div className="mx-auto w-full max-w-[1166px] px-4 xl:px-0">
     <div className="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
       <div className="md:w-[316px]">
         <p className="text-[18px] font-medium text-white">
         <h1 className="text-white font-extrabold">
-          <span className="text-rose-600">YOUR</span>LOGO
+          <span className="text-white">Adriel School Of Music</span>
         </h1>
         </p>
-        <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">Adriel school of Music was Founded in 2014, our school has become a vibrant community of passionate Students and dedicated Educators. At Adriel school of Music, our mission is to nurture the love of music  in students of all ages and skill levels.</p>
+        <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">Adriel School of Music has become a vibrant community of passionate Students and dedicated Educators. We are one of the best music schools in Bangalore, we also focus on sending tutors to your doorstep. Our mission is to nurture the love of music in students of all ages and skill levels.</p>
         <div className="mt-[18px] flex gap-4">
           <a className="hover:scale-110" target="_blank"
-            href="#"><img alt="facebook icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/facebook.svg" /></a><a
-            className="hover:scale-110" target="_blank"
-            href="/"><img alt="linkdin icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/linkdin.svg" /></a><a
-            className="hover:scale-110" target="_blank"
-            href="/"><img alt="instagram icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/instagram1.svg" /></a><a
-            className="hover:scale-110" target="_blank"
-            href=""><img alt="twitter icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/twitter.svg" /></a><a
-            className="hover:scale-110" target="_blank"
-            href="https://www.youtube.com/"><img alt="youtube icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/youtube.svg" /></a>
+            href="https://www.instagram.com/adriel_school?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img alt="facebook icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1"  src={Instagram} /></a><a
+            className="hover:scale-110"
+            href="/"><img alt="linkdin icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1"  src={Facebook} /></a><a
+            className="hover:scale-110"
+            href="/"><img alt="instagram icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1"  src={Youtube} /></a>
         </div>
       </div>
       <div className="md:w-[316px]">
@@ -35,7 +34,7 @@ const Footer = () => {
             </svg>
           </div>
           <div className="ml-[18px]">
-            <a href="tel:+911800123444" className="font-Inter text-[14px] font-medium text-white">+91 7358906564</a>
+            <a href="tel:+911800123444" className="font-Inter text-[14px] font-medium text-white">+91 7019598505</a>
             <p className="font-Inter text-[12px] font-medium text-white">Support Number</p>
           </div>
         </div>
@@ -48,7 +47,7 @@ const Footer = () => {
             </svg>
           </div>
           <div className="ml-[18px]">
-            <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">adrielmusichelp@.com</a>
+            <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">contact.adrielschoolofmusic@gmail.com</a>
             <p className="font-Inter text-[12px] font-medium text-[#fff]">Support Email</p>
           </div>
         </div>
@@ -61,7 +60,7 @@ const Footer = () => {
             </svg>
           </div>
           <div className="ml-[18px]">
-            <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">NS PARADISE TOWNSHIP, 6th Cross Rd, layout, Aavalahalli, Bengaluru, Karnataka 560049</a>
+            <p href="" className="font-Inter text-[14px] font-medium text-[#fff]">Bengaluru, Karnataka 560049</p>
             <p className="font-Inter text-[12px] font-medium text-white">Address</p>
           </div>
         </div>
@@ -70,32 +69,33 @@ const Footer = () => {
         <div className="">
           <p className="text-deutziawhite font-inter text-[18px] font-medium leading-normal">Pages</p>
           <ul>
+          <li className="mt-[15px]">
+            <a
+                className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                href="/"><span>Home</span></a></li>
             <li className="mt-[15px]"><a
                 className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                href="/">Home</a></li>
+                href="/about"><span>About Us</span></a></li>
             <li className="mt-[15px]"><a
                 className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                href="/our-tutors">About Us</a></li>
+                href="https://forms.gle/egbfwaohMsYagBeC9" target='_blank'><span>Contact</span></a></li>
             <li className="mt-[15px]"><a
                 className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                href="/become-a-tutor">Contact</a></li>
+                href="/courses"><span>Our Courses</span></a></li>
             <li className="mt-[15px]"><a
                 className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                href="/plans-and-pricing">Our Courses</a></li>
+                href="/"><span>Terms and conditions</span></a></li>
             <li className="mt-[15px]"><a
                 className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                href="/terms-and-conditions">Terms and conditions</a></li>
-            <li className="mt-[15px]"><a
-                className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                href="/privacy-policy">Privcay policy</a></li>
+                href="/"><span>Privacy policy</span></a></li>
           </ul>
         </div>
         <div className="mt-6 flex flex-col gap-4 sm:mt-0">
-          <p className="text-deutziawhite font-inter text-[18px] font-medium">Our Muscic Lab</p>
-          <div className="flex gap-4 sm:flex-col">
+          <p className="text-deutziawhite font-inter text-[18px] font-medium">Our Music Lab</p>
+          {/*<div className="flex gap-4 sm:flex-col">
             <a target="_blank"
-              href="#"><img alt="facebook icon" loading="lazy" width="168" height="50" decoding="async" data-nimg="1"  src="https://www.englishyaari.com/img/google-store.svg" /></a>
-          </div>
+              href="#"><img alt="facebook icon" loading="lazy" width="40" height="40" decoding="async" data-nimg="1"  src={Instagram} /></a>
+          </div>*/}
         </div>
       </div>
     </div>
