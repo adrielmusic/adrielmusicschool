@@ -34,7 +34,7 @@ const Footer = () => {
             </svg>
           </div>
           <div className="ml-[18px]">
-            <a href="tel:+911800123444" className="font-Inter text-[14px] font-medium text-white">+91 7019598505</a>
+            <a href="tel:+911800123444" className="font-Inter text-[14px] font-medium text-white">+91 9380978956</a>
             <p className="font-Inter text-[12px] font-medium text-white">Support Number</p>
           </div>
         </div>
@@ -106,6 +106,7 @@ const Footer = () => {
       </p>
     </div>
   </div>
+  
 </div>
   )
 }

@@ -3,8 +3,9 @@ import DarkMode from './DarkMode';
 import {HiMenuAlt3, HiMenuAlt1} from "react-icons/hi";
 import ResponsiveMenu from './ResponsiveMenu';
 import Logo from '../../assets/images/Logo/adriel.png'
-import {NavLink, replace, useNavigate} from 'react-router-dom';
+import {NavLink, useNavigate} from 'react-router-dom';
 import {Link} from 'react-scroll';
+
 
 export const MenuLinks = [
     {
