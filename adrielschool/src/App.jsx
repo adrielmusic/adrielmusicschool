@@ -24,7 +24,7 @@ const App = () => {
     <div>
     <RouterProvider router={router}/>
     <Footer/>
-    <a href="https://wa.me/9380978956?text=Hi, I'm interested your music class" target="_blank" rel="noreferrer noopener" className="fixed bottom-4 left-4 z-50 inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#25d366]">
+    <a href="https://wa.me/9380978956?text=Hi, I am interested to take your music lessons, can i get more details?" target="_blank" rel="noreferrer noopener" className="fixed bottom-4 left-4 z-50 inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#25d366]">
   <div className="absolute z-10 top-0 left-0 w-full h-full rounded-full bg-[#25d366] animate-ping"></div>
   <div className="relative z-20">
     <svg fill="#fff" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 308.00 308.00" xmlSpace="preserve" stroke="#fff" transform="matrix(1, 0, 0, 1, 0, 0)">
