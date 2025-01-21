@@ -3,7 +3,6 @@ import GlobeImg from '../../assets/images/common/globe.jpg'
 import MaleAvatar from '../../assets/images/common/male-avatar.jpg'
 import BannerImg from '../../assets/images/common/banner.jpg';
 import BannerImg2 from '../../assets/images/common/banner2.png';
-import AboutBanner from './AboutBanner';
 
 const BannerData = {
     image: BannerImg,
