@@ -1,7 +1,7 @@
 import React from 'react'
 import OnlineTeach from '../../assets/videos/online-teach.mp4'
-import OfflineTeach from '../../assets/Videos/offline-teach.mp4'
-import OneToOneTeach from '../../assets/Videos/one-one-teach.mp4'
+import OfflineTeach from '../../assets/videos/offline-teach.mp4'
+import OneToOneTeach from '../../assets/videos/one-one-teach.mp4'
 import NumberCounter from '../NumberCounter/NumberCounter'
 import Courses from '../Courses/Courses'
 import HeroCarousel from './HeroCarousel'
@@ -16,7 +16,6 @@ import Certifications from '../Certifications/Certifications'
 import {NavLink, useNavigate} from 'react-router-dom';
 import FooterBanner from '../Footer/FooterBanner'
 import OurTeam from '../OurTeam.jsx/OurTeam'
-import Gallery from '../Gallery/Gallery'
 
 const slides = [
     {
