@@ -6,7 +6,7 @@ import RootLayout from './components/Layout/RootLayout'
 import Courses from './components/Courses/Courses'
 import Contact from './components/Contact/Contact'
 import AboutUs from './components/AboutUS/AboutUs'
-import ImageGallery from './components/ImageGallery/ImageGallery'
+import Gallery from './components/Gallery/Gallery'
 
 const App = () => {
 
@@ -17,7 +17,7 @@ const App = () => {
         <Route path='courses' element={<Courses/>}></Route>
         <Route path='contact' element={<Contact/>}></Route>
         <Route path='about' element={<AboutUs/>}></Route>
-        <Route path='gallery' element={<ImageGallery/>}></Route>
+        {/*<Route path='gallery' element={<Gallery/>}></Route>*/}
       </Route>
     )
   )

@@ -16,6 +16,7 @@ import Certifications from '../Certifications/Certifications'
 import {NavLink, useNavigate} from 'react-router-dom';
 import FooterBanner from '../Footer/FooterBanner'
 import OurTeam from '../OurTeam.jsx/OurTeam'
+import Gallery from '../Gallery/Gallery'
 
 const slides = [
     {

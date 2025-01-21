@@ -23,11 +23,11 @@ export const MenuLinks = [
         name: "Courses",
         link: "/courses",
     },
-    {
+   {/* {
         id: 4,
         name: "Gallery",
         link: "/gallery",
-    },
+    },*/}
 ];
 
 const Navbar = () => {
