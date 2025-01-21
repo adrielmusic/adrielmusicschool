@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from 'react-slick';
-import Img1 from '../../assets/images/Team/Solomon.jpg'
+import Img1 from '../../assets/images/Team/solomon.jpg'
 import Img2 from '../../assets/images/Team/theodore.jpg'
 import Img3 from '../../assets/images/Team/victor.jpg'
 import Img4 from '../../assets/images/Team/Riddhi.jpg'
@@ -8,7 +8,6 @@ import Img5 from '../../assets/images/Team/maxwell.jpg'
 import Img6 from '../../assets/images/Team/dan.jpg'
 import Img7 from '../../assets/images/Team/Deepak.jpg'
 import Img8 from '../../assets/images/Team/Ancin.jpg'
-
 
 const OurTeamData = [
     {
