@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
                 {/*Logo Section*/}
                 <div>
-                   <NavLink to="/" className='flex items-center'><img src={Logo} alt="Logo" className='h-14' /><span className='text-1xl sm:text-2xl font-semibold'>Adriel School Of Music</span></NavLink>
+                   <NavLink to="/" className='flex items-center'><img src={Logo} alt="Logo" className='h-14' /><span className='text-1xl sm:text-2xl font-semibold'>Adriel School of Music & Arts</span></NavLink>
                 </div>
             {/*Desktop NavLinks Section*/}
             <div className='hidden md:block'>

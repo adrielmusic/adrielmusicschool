@@ -32,7 +32,7 @@ const AboutUs = () => {
 
     <section  className="py-4 px-4">
         <h2 className="text-xl font-bold">WHO WE ARE?</h2>
-        <p className="pt-2">Adriel School Of Music is where passion for music meets exceptional education! Established in <span className='font-bold'>2014</span>, we have been nurturing talent and inspiring creativity for over 10 years. Our music school is dedicated to providing top-quality music education in a fun, supportive, and engaging environment for students of all ages and skill levels. Our school has become a vibrant community of passionate Students and dedicated Educators. We are one of the best music schools in Bangalore, we also focus on sending tutors to your doorstep. We offer Offline classes, Online classes and send tutors to your doorstep.</p>
+        <p className="pt-2">Adriel School of Music & Arts is where passion for music meets exceptional education! Established in <span className='font-bold'>2014</span>, we have been nurturing talent and inspiring creativity for over 10 years. Our music school is dedicated to providing top-quality music education in a fun, supportive, and engaging environment for students of all ages and skill levels. Our school has become a vibrant community of passionate Students and dedicated Educators. We are one of the best music schools in Bangalore, we also focus on sending tutors to your doorstep. We offer Offline classes, Online classes and send tutors to your doorstep.</p>
     </section>
 
 
@@ -40,7 +40,9 @@ const AboutUs = () => {
 
     <section  className="py-4 px-4">
         <h2 className="text-xl font-bold text-orange-400">What We Do?</h2>
-        <p className=" pt-2">Adriel School Of Music has trained more than a thousand passionate students online and offline from different countries who have succeeded in their musical journeys as performers and talented musicians. We are a group of well-trained certified tutors who are experts at piano/keyboard, violin, Drums, Vocals, Guitar, and Ukulele.</p>
+        <p className=" pt-2">Adriel School of Music & Arts is among the first music schools in Bangalore to offer personalized 1:1 music lessons at your doorstep, alongside live online classes worldwide.</p>
+        <br></br>
+        <p >Having trained over 1,000 students across different countries, we are committed to making quality music education accessible and enjoyable. Our certified tutors provide expert training in Piano/Keyboard, Guitar, Violin, Drums, Vocals, and Ukulele, helping students build strong musical foundations and achieve their personal goals with confidence.</p>
         
     </section>
 
@@ -57,7 +59,7 @@ const AboutUs = () => {
     <section className="text-center py-12 px-4">
       <h2 className="text-2xl font-bold ">Mission And Values</h2>
       <p className="mt-4 max-w-2xl mx-auto">
-      At Adriel School Of Music, our mission is to nurture the love of music in students of all ages and skill levels.
+      At Adriel School of Music & Arts, our mission is to nurture the love of music in students of all ages and skill levels.
       </p>
       <div className="flex justify-center space-x-8 mt-8 animate-fadeIn">
         <div className="transition transform hover:scale-110">

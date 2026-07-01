@@ -35,7 +35,7 @@ const BannerData = {
     image: BannerImg,
     tag: "Learn Music at your Doorstep",
     title: "Customized Professional Offline Tutor on Your Schedule",
-    subtitle: "At Adriel School Of Music, we are committed to providing high-quality home tutoring that delivers results. We believe that learning should be fun, engaging, and tailored to each student’s unique needs. With our team of professional tutors, we make sure every student has the tools they need to succeed, right from the comfort of their own home.",
+    subtitle: "At Adriel School of Music & Arts, we are committed to providing high-quality home tutoring that delivers results. We believe that learning should be fun, engaging, and tailored to each student’s unique needs. With our team of professional tutors, we make sure every student has the tools they need to succeed, right from the comfort of their own home.",
     link: "/courses",
 };
 const BannerData2 = {
@@ -76,9 +76,9 @@ const Hero = () => {
             </div>
             {/*Text Content Section*/}
             <div className='space-y-5 order-2 sm:order-1 xl:pr-40'>
-                <h1 className='text-3xl pt-2 sm:text-4xl font-semibold'> Where Music comes to Life! Bringing out the Talent in You  {" "} <span className='text-primary'>Adriel School Of Music</span></h1>
+                <h1 className='text-3xl pt-2 sm:text-4xl font-semibold'> Where Music comes to Life! Bringing out the Talent in You  {" "} <span className='text-primary'>Adriel School of Music & Arts</span></h1>
                 <p className="font-normal">
-                 Adriel School Of Music has become a vibrant community of passionate Students and dedicated Educators. We are one of the best music schools in Bangalore, we also focus on sending tutors to your doorstep. Our mission is to nurture the love of music in students of all ages and skill levels.
+                 Adriel School of Music & Arts has become a vibrant community of passionate Students and dedicated Educators. We are one of the best music schools in Bangalore, we also focus on sending tutors to your doorstep. Our mission is to nurture the love of music in students of all ages and skill levels.
                 </p>
                 {/*<button onClick={()=> navigate('/contact', {replace:true})} className='btn-primary'><a target='_blank' href="https://forms.gle/egbfwaohMsYagBeC9">Book Class Now</a></button>*/}
                 <button className='btn-primary'><a target='_blank' href="https://forms.gle/crgDMKRNhjqDQAge6">Book Class Now</a></button>

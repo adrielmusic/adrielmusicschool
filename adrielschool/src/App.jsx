@@ -7,6 +7,7 @@ import Courses from './components/Courses/Courses'
 import Contact from './components/Contact/Contact'
 import AboutUs from './components/AboutUS/AboutUs'
 import Gallery from './components/Gallery/Gallery'
+import PopUpForm from './components/PopUpForm/PopUpForm'
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
 
   return (
     <div>
+     {/* <PopUpForm/>*/}
     <RouterProvider router={router}/>
     <Footer/>
     <a href="https://wa.me/9380978956?text=Hi, I am interested to take your music lessons, can i get more details?" target="_blank" rel="noreferrer noopener" className="fixed bottom-4 left-4 z-50 inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#25d366]">

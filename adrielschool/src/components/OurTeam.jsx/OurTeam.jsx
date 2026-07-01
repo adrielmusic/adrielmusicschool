@@ -31,27 +31,27 @@ const OurTeamData = [
         description: "Riddhi has over 3+years of experience as a dedicated music tutor, she is specialized in teaching vocals to children from beginner to intermediate levels, her approach is tailored to inspire young learners.",
         image: Img4,
     },
-    {
+   /* {
         id:4,
         name:"Maxwell Rex",
         position: "Piano / Keyboard Instructor",
         description: "Max is a Self taught musician with 8+ years of experience, and also he was selected for Indian Jazz fest, IIT MADRAS and he is specialized in teaching vocals to children from beginner to intermediate levels.",
         image: Img5,
-    },
-    {
+    },*/
+   /* {
         id:5,
         name:"Dan Baraily",
         position: "Guitar Instructor",
         description: "Dan is an experienced and certified guitarist with a passion for teaching. He has been playing the electric guitar for over 10 years, performing at concerts and collaborating with bands in various genres.",
         image: Img6,
-    },
-    {
+    },*/
+    /*{
         id:6,
         name:"Deepak Gochhayat",
         position: "Guitar Instructor",
         description: "Deepak has over 11 years of experience in music, Deepak is Grade 3 Certified from Rockschool. Deepak has received the Highest achiever’s award from Rockschool of music, London from eastern zone.",
         image: Img7,
-    },
+    },*/
     {
         id:7,
         name:"Ancin V R",
@@ -135,7 +135,7 @@ const OurTeam = () => {
                     </div>
                 </div>
                 <p className="text-base sm:leading-relaxed ">
-                As both an Educator and Entrepreneur, Solomon Raj K has over 10 years of experience in Music Mentoring, Sound Engineering and Music Production. Under his leadership, Adriel School Of Music has embraced virtual learning, giving students access to world-class instructors and resources from anywhere in the world. This forward-thinking mindset, combined with Raj's dedication to each student’s personal growth has made the school a leader in music education. 
+                As both an Educator and Entrepreneur, Solomon Raj K has over 10 years of experience in Music Mentoring, Sound Engineering and Music Production. Under his leadership, Adriel School of Music & Arts has embraced virtual learning, giving students access to world-class instructors and resources from anywhere in the world. This forward-thinking mindset, combined with Raj's dedication to each student’s personal growth has made the school a leader in music education. 
                 </p>
 
                 <footer className="flex items-center space-x-4 md:space-x-0">

@@ -11,10 +11,10 @@ const Footer = () => {
       <div className="md:w-[316px]">
         <p className="text-[18px] font-medium text-white">
         <h1 className="text-white font-extrabold">
-          <span className="text-white">Adriel School Of Music</span>
+          <span className="text-white">Adriel School of Music & Arts</span>
         </h1>
         </p>
-        <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">Adriel School of Music has become a vibrant community of passionate Students and dedicated Educators. We are one of the best music schools in Bangalore, we also focus on sending tutors to your doorstep. Our mission is to nurture the love of music in students of all ages and skill levels.</p>
+        <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">Adriel School of Music & Arts has become a vibrant community of passionate Students and dedicated Educators. We are one of the best music schools in Bangalore, we also focus on sending tutors to your doorstep. Our mission is to nurture the love of music in students of all ages and skill levels.</p>
         <div className="mt-[18px] flex gap-4">
           <a className="hover:scale-110" target="_blank"
             href="https://www.instagram.com/adriel_school?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img alt="facebook icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1"  src={Instagram} /></a><a
@@ -102,7 +102,7 @@ const Footer = () => {
     <hr className="mt-[30px] text-white" />
     <div className="flex items-center justify-center pb-8 pt-[9px] md:py-8">
       <p className="text-[10px] font-normal text-white md:text-[12px]">
-        © Copyright 2024, All Rights Reserved by Adriel School Of Music
+        © Copyright 2024, All Rights Reserved by Adriel School Of Music & Arts
       </p>
     </div>
   </div>
